@@ -14,7 +14,7 @@ form.addEventListener("submit", function (e) {
     fetch(`https://api.github.com/users/${username}`)
     .then(res => res.json())
     .then(data => {
-      console.log(data)
+     // console.log(data)
         userData.innerHTML = `
 <div class="card p-3 float-right" style="width: 100%;">
                 <div class="row">
