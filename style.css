@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 18rem;
+}
+
+#repos {
+  margin-top: 1.34rem;
+}
+
+#text {
+  margin-top: 1.3rem;
+  display: none;
+}
+
+.inline {
+    display: inline-flex;
+}
+
+#user-data {
+  margin-top: 1rem;
+}
